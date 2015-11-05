@@ -23,26 +23,18 @@ public class SetExplained {
 	Student studentOne=new Student("Ahad","Spring MVC");
 	Student studentTwo=new Student("KrishnaVeni","WebSerevices");
 	Student studentThree=new Student("Modi","Struts Framework");
-	Student studentFour=new Student("Jpasha","product Planner");
-	studentFour=new Student("Jpasha","J2ee Architect");
+	studentThree = new Student("Jpasha","Planner");
 	
-	
-	Student studentFive = new Student("Anthony","Java Programmer");
 	
 		Set studentSet =new HashSet();
 		studentSet.add(studentOne);
 		studentSet.add(studentTwo);
 		studentSet.add(studentThree);
-		studentSet.add(studentFour);
-		studentSet.add(studentFour);
+		studentSet.add(studentThree);
+		
 		
 		System.out.println("Size of the set is "+studentSet.size());
 		
-		boolean fourthStudent = studentSet.contains(studentFour);
-		if(fourthStudent){
-			System.out.println("FourthStudent exists in the set");
-			
-		}
 		
 		// Iterating over the elements in the set
 		Iterator<Student> it = studentSet.iterator();
@@ -50,7 +42,7 @@ public class SetExplained {
 		    // Get element
 		    Student studentElement = it.next();
 		   System.out.println(studentElement.getName());
-		   System.out.println(studentElement.getSpecialization());
+		 
 		    
 		}
 

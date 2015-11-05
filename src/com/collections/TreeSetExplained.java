@@ -17,7 +17,7 @@ public class TreeSetExplained {
 	     
 
 			TreeSet<Integer> integerSet =new TreeSet<Integer>();
-		integerSet.add(10);
+			integerSet.add(10);
 			integerSet.add(8);
 			integerSet.add(21);
 			integerSet.add(4);

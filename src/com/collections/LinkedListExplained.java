@@ -4,7 +4,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 /**
- * Linked list implementation of the List interface. Implements all optional list operations, and permits all elements (including null)
+ * Linked list implementation of the List interface. Implements all optional list operations,
+ *  and permits all elements (including null)
  * DescendingItetator iteratores from last to First
  * 
  * LinkedList allows for constant-time insertions or removals, but only sequential access of elements
@@ -24,9 +25,7 @@ public class LinkedListExplained {
 		linkedList.add(new Student("KrishnaVeni","WEB services"));
 		linkedList.add(new Student("Modi","Struts Framework"));
 		linkedList.add(new Student("Jpasha","JMS "));
-		
-		//linkedList.remove(1);
-		//linkedList.add(null);
+	
 		Iterator<Student> it = linkedList.descendingIterator();
 		
 		
@@ -49,7 +48,7 @@ public class LinkedListExplained {
 			}
 		
 		
-		System.out.println(linkedList.get(2).getName());
+	//	System.out.println(linkedList.get(2).getName());
 		/*for(String s:linkedList){
 			
 			
